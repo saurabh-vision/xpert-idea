@@ -11,6 +11,7 @@ lib/
 │   ├── models/                       # Data models
 │   │   ├── recent_file_model.dart    # Stores path, name, size, date opened
 │   │   ├── annotation_model.dart     # Stores highlights, notes, drawings
+│   │   ├── tool_model.dart           # Stores tool id, name, icon, category
 │   │   ├── signature_model.dart      # Stores saved e-signatures
 │   │   └── user_settings_model.dart  # Stores theme, ads, premium flags
 │   │
@@ -52,7 +53,6 @@ lib/
 ├── widgets/                         # Global reusable widgets
 │   ├── custom_button.dart
 │   ├── custom_dialog.dart
-│   ├── tool_model.dart           # Stores tool id, name, icon, category
 │   ├── file_tile.dart
 │   ├── bottom_nav.dart               # Bottom navigation bar
 │   ├── top_nav.dart                  # Top app bar / navigation
