@@ -1,116 +1,129 @@
 📌 ScanXpert – Idea & First Edition Plan
 🎯 Core Idea
-
 ScanXpert ek all-in-one PDF toolkit app hai jo users ko apne phone me documents scan, view, edit aur secure karne ki facility deta hai.
-
 Target users:
-
 Students (notes merge/split, highlight)
-
-Professionals (eSign, watermark, password protect)
-
+Professinals (eSign, watermark, password protect)
 Normal users (combine bills, scan documents, compress PDF)
-
 Market me existing apps ya to paid hote hain ya ads se bhare hote hain → ScanXpert ka focus hoga smooth, ad-light aur powerful PDF tools provide karna.
-
 🚀 First Edition (Phase 1) – Features
 🖥️ PDF Viewer (Syncfusion based)
-
 Open & view PDFs (zoom, scroll)
-
 Search text
-
 Bookmarks navigation
-
 Highlight / underline / strikeout
-
 Add freehand notes / signature
-
 Dark mode
-
 🔧 PDF Tools (14 Core Tools)
-
 Merge PDFs
-
 Split PDF
-
 eSign / Signature Add
-
 Add Watermark (Text/Image)
-
 Rotate PDF pages
-
 Delete Page(s)
-
 Extract Text from PDF
-
 Extract Images from PDF
-
 Protect PDF (Add Password)
-
 Remove Password (Unlock PDF)
-
 Auto Numbering (Page Numbers, Header/Footer)
-
 PDF Annotations (Highlight, Notes, Strikeout)
-
 Reorder Pages
-
 Combine Images into PDF
-
 👉 Ye sab Syncfusion license se ban jayenge, aur ye hi First Edition release ke core tools rahenge.
-
 ⏳ Development Approach (Step by Step)
 Step 1 – Setup
-
 Integrate Syncfusion License Key
-
 Install required packages (syncfusion_flutter_pdfviewer, syncfusion_flutter_pdf, path_provider, file_picker)
-
 Setup basic app structure (Home screen, Grid for tools, Bottom Nav/Drawer)
-
 Step 2 – Core Functionality
-
 Add PDF Viewer screen
-
 Add File Picker for opening PDFs
-
 Implement tools one by one:
-
 Week 1 → Merge, Split, Protect, Unlock
-
 Week 2 → Watermark, eSign, Rotate, Delete, Extract (Text/Images), Auto Numbering, Reorder, Combine Images
-
 Step 3 – Testing & Polish
-
 Test with different PDFs (large size, password protected, scanned PDFs)
-
-Optimize file saving paths (local storage with SQLite history)
-
+Optimize file saving paths (local storage with SQLite history
 Add basic onboarding + tutorial for new users
-
 📊 First Edition Release Goal
-
 ⏱️ Timeline: ~2 weeks (intensive work) / ~1 month (part-time work)
-
 📂 Deliverables:
-
 PDF Viewer (full features)
-
 14 Core Tools (usable & stable)
-
 Simple, clean UI (grid tools + bottom nav)
-
-Local storage (recent files history)
-
-🔮 Future Expansion (Post Release)
-
+Local orage (recent files history)
+🔮 Fuure Expansion (Post Release)
 Phase 2 (Advanced): Scan to PDF, Compress, Crop
-
 Phase 3 (Premium): PDF→Image, PDF→Word (via API)
-
 Monetization:
-
 Free with limited ads
-
 Premium unlock (ad-free + advanced tools)
+
+
+
+
+
+ScanXpert – First Edition Plan
+🎯 Core Idea
+All-in-one PDF toolkit app: Scan, view, edit, and secure documents on mobile.
+Target users: Students, professionals, everyday users.
+USP: Ad-light, smooth experience, strong free toolkit (vs. paid/ad-heavy competitors).
+🚀 Phase 1: Features & Implementation
+PDF Viewer
+Built with Syncfusion
+Features: Open, zoom, scroll, search, bookmarks, highlight/underline/strikeout, freehand notes/signature, dark mode
+14 Core PDF Tools
+Merge PDFs
+Split PDF
+eSign/Signature Add
+Add Watermark (Text/Image)
+Rotate PDF Pages
+Delete Page(s)
+Extract Text
+Extract Images
+Protect PDF (Password)
+Remove Password
+Auto Numbering (Page #, Header/Footer)
+PDF Annotations
+Reorder Pages
+Combine Images to PDF
+⏳ Development Approach
+Step 1: Setup
+Integrate Syncfusion License
+Install:
+syncfusion_flutter_pdfviewer
+syncfusion_flutter_pdf
+path_provider
+file_picker
+Basic app structure: Home, tool grid, bottom nav/drawer
+Step 2: Core Implementation
+PDF Viewer screen
+File Picker integration
+Implement tools:
+Week 1: Merge, Split, Protect, Unlock
+Week 2: Watermark, eSign, Rotate, Delete, Extract (Text/Images), Auto Numbering, Reorder, Combine Images
+Step 3: Testing & Polish
+Test with various PDFs (large, protected, scanned)
+Optimize file saving (local storage, SQLite history)
+Add onboarding/tutorial
+📂 First Edition Deliverables
+Full-featured PDF Viewer
+14 Core Tools (stable)
+Simple, clean UI (tools grid + bottom nav)
+Local storage (recent files/history)
+🔮 Future Expansion
+Phase 2: Scan to PDF, Compress, Crop
+Phase 3: Premium tools (PDF→Image/Word via API)
+Monetization: Limited ads (free), premium unlock (ad-free + advanced)
+Actionable Checklist for Phase 1
+ Integrate Syncfusion license
+ Install essential packages
+ Build initial app skeleton (navigation, home, tools grid)
+ Implement PDF Viewer
+ Add File Picker
+ Develop and test each tool (as per weekly schedule)
+ Polish UI, dark mode, and error handling
+ Test with diverse PDFs
+ Implement local storage & recent files
+ Add onboarding/tutorial
+ Prepare for Play Store/Test Release
