@@ -1,49 +1,63 @@
 lib/
-│
-├── main.dart
-│
-├── core/
-│   ├── app_colors.dart
-│   ├── app_strings.dart
-│   ├── app_themes.dart
-│   └── syncfusion_license.dart
-│
-├── models/
-│   ├── pdf_file_model.dart
-│   ├── tool_model.dart
-│
-├── services/
-│   ├── pdf_service.dart
-│   ├── storage_service.dart
-│   ├── file_service.dart
-│
-├── screens/
-│   ├── home/
+│── main.dart                        # App entry point
+├── syncfusion_license.dart       # Syncfusion license integration
+├── core/                            # Core utilities & constants
+│   ├── constants.dart                # Colors, strings, asset paths
+│   ├── theme.dart                    # Dark + green accent theme
+│   ├── utils.dart                    # Common helpers (snackbar, dialogs)
+│   └── routes.dart                   # App navigation routes
+│ 
+├── data/                            # Data & logic layer
+│   ├── models/                       # Data models
+│   │   ├── recent_file_model.dart    # Stores path, name, size, date opened
+│   │   ├── annotation_model.dart     # Stores highlights, notes, drawings
+│   │   ├── tool_model.dart           # Stores tool id, name, icon, category
+│   │   ├── signature_model.dart      # Stores saved e-signatures
+│   │   └── user_settings_model.dart  # Stores theme, ads, premium flags
+│   │
+│   ├── services/                     # File handling, PDF operations, storage
+│       ├── file_service.dart
+│       ├── pdf_service.dart          # Merge, Split, Protect, Unlock, etc.
+│       ├── storage_service.dart
+│       └── sqlite_helper.dart            # Local database
+│                              
+├── features/                        # App Features
+│   ├── home/                         # Home & navigation
 │   │   ├── home_screen.dart
-│   │   ├── tool_card.dart
-│   │   └── pdf_viewer_screen.dart
-│   ├── tools/
-│   │   ├── merge_pdf_screen.dart
-│   │   ├── split_pdf_screen.dart
-│   │   ├── sign_pdf_screen.dart
-│   │   ├── watermark_pdf_screen.dart
-│   │   ├── rotate_pdf_screen.dart
-│   │   ├── delete_page_screen.dart
-│   │   ├── extract_text_screen.dart
-│   │   ├── extract_images_screen.dart
-│   │   ├── protect_pdf_screen.dart
-│   │   ├── unlock_pdf_screen.dart
-│   │   ├── auto_numbering_screen.dart
-│   │   ├── reorder_pages_screen.dart
-│   │   └── images_to_pdf_screen.dart
-│   └── settings/
-│       └── settings_screen.dart
-│
-├── widgets/
+│   │   ├── recent_files.dart
+│   │   └── tool_grid.dart
+│   │   
+│   │
+│   ├── viewer/                       # PDF Viewer
+│   │   ├── pdf_viewer_screen.dart
+│   │   └── annotation_tools.dart
+│   │
+│   ├── tools/                        # PDF Tools (14 core tools)
+│       ├── merge_pdf.dart
+│       ├── split_pdf.dart
+│       ├── protect_pdf.dart
+│       ├── unlock_pdf.dart
+│       ├── watermark_pdf.dart
+│       ├── esign_pdf.dart
+│       ├── rotate_pdf.dart
+│       ├── delete_pages.dart
+│       ├── extract_text.dart
+│       ├── extract_images.dart
+│       ├── auto_numbering.dart
+│       ├── annotations.dart
+│       ├── reorder_pages.dart
+│       └── combine_images.dart
+│   
+├── widgets/                         # Global reusable widgets
 │   ├── custom_button.dart
-│   ├── custom_appbar.dart
-│   ├── loading_indicator.dart
-│   └── empty_state.dart
+│   ├── custom_dialog.dart
+│   ├── file_tile.dart
+│   ├── bottom_nav.dart               # Bottom navigation bar
+│   ├── top_nav.dart                  # Top app bar / navigation
+│   └── all_tools_dialog.dart         # Full tools dialog popup
 │
-└── database/
-    └── app_database.dart
+└── assets/                          # Assets (icons, fonts, images)
+    ├── icons/
+    ├── fonts/
+    └── images/
+
