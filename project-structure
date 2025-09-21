@@ -25,9 +25,11 @@ lib/
 │   ├── home/                         # Home & navigation
 │   │   ├── home_screen.dart
 │   │   ├── recent_files.dart
-│   │   └── tool_grid.dart
+│   │   ├── tool_grid.dart
+│   │   ├── setting_screen.dart
+│   │   └── Notification_screen.dart  
 │   │   
-│   │
+│   │    
 │   ├── viewer/                       # PDF Viewer
 │   │   ├── pdf_viewer_screen.dart
 │   │   └── annotation_tools.dart
