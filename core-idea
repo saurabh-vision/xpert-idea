@@ -1,0 +1,116 @@
+📌 ScanXpert – Idea & First Edition Plan
+🎯 Core Idea
+
+ScanXpert ek all-in-one PDF toolkit app hai jo users ko apne phone me documents scan, view, edit aur secure karne ki facility deta hai.
+
+Target users:
+
+Students (notes merge/split, highlight)
+
+Professionals (eSign, watermark, password protect)
+
+Normal users (combine bills, scan documents, compress PDF)
+
+Market me existing apps ya to paid hote hain ya ads se bhare hote hain → ScanXpert ka focus hoga smooth, ad-light aur powerful PDF tools provide karna.
+
+🚀 First Edition (Phase 1) – Features
+🖥️ PDF Viewer (Syncfusion based)
+
+Open & view PDFs (zoom, scroll)
+
+Search text
+
+Bookmarks navigation
+
+Highlight / underline / strikeout
+
+Add freehand notes / signature
+
+Dark mode
+
+🔧 PDF Tools (14 Core Tools)
+
+Merge PDFs
+
+Split PDF
+
+eSign / Signature Add
+
+Add Watermark (Text/Image)
+
+Rotate PDF pages
+
+Delete Page(s)
+
+Extract Text from PDF
+
+Extract Images from PDF
+
+Protect PDF (Add Password)
+
+Remove Password (Unlock PDF)
+
+Auto Numbering (Page Numbers, Header/Footer)
+
+PDF Annotations (Highlight, Notes, Strikeout)
+
+Reorder Pages
+
+Combine Images into PDF
+
+👉 Ye sab Syncfusion license se ban jayenge, aur ye hi First Edition release ke core tools rahenge.
+
+⏳ Development Approach (Step by Step)
+Step 1 – Setup
+
+Integrate Syncfusion License Key
+
+Install required packages (syncfusion_flutter_pdfviewer, syncfusion_flutter_pdf, path_provider, file_picker)
+
+Setup basic app structure (Home screen, Grid for tools, Bottom Nav/Drawer)
+
+Step 2 – Core Functionality
+
+Add PDF Viewer screen
+
+Add File Picker for opening PDFs
+
+Implement tools one by one:
+
+Week 1 → Merge, Split, Protect, Unlock
+
+Week 2 → Watermark, eSign, Rotate, Delete, Extract (Text/Images), Auto Numbering, Reorder, Combine Images
+
+Step 3 – Testing & Polish
+
+Test with different PDFs (large size, password protected, scanned PDFs)
+
+Optimize file saving paths (local storage with SQLite history)
+
+Add basic onboarding + tutorial for new users
+
+📊 First Edition Release Goal
+
+⏱️ Timeline: ~2 weeks (intensive work) / ~1 month (part-time work)
+
+📂 Deliverables:
+
+PDF Viewer (full features)
+
+14 Core Tools (usable & stable)
+
+Simple, clean UI (grid tools + bottom nav)
+
+Local storage (recent files history)
+
+🔮 Future Expansion (Post Release)
+
+Phase 2 (Advanced): Scan to PDF, Compress, Crop
+
+Phase 3 (Premium): PDF→Image, PDF→Word (via API)
+
+Monetization:
+
+Free with limited ads
+
+Premium unlock (ad-free + advanced tools)
